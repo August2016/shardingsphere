@@ -26,7 +26,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 import java.sql.SQLException;
 
-/*
+/**
  * 1. Copy resources/conf/*.yaml to ShardingSphere-Proxy conf folder and overwrite original file.
  *    
  *    If you want to use sharding, please select config-sharding.yaml

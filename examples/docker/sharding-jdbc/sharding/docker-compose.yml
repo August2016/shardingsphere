@@ -36,7 +36,7 @@ services:
 
   zookeeper:
     ## get more versions of zookeeper here : https://hub.docker.com/_/zookeeper?tab=tags
-    image: "zookeeper:3.4"
+    image: "zookeeper:3.6.3"
     ports: 
       - "2181:2181"
     container_name: shardingsphere-example-zookeeper
